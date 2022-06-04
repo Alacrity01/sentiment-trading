@@ -41,3 +41,21 @@
 	<h6>- get metrics, visualizations</h6>
 	<h6>- use predictors</h6>
 
+
+## Installations
+
+```
+conda update -n base -c defaults conda
+
+conda activate base
+conda create -n sentenv python=3.7 anaconda -y
+conda activate sentenv
+conda install -c conda-forge imbalanced-learn -y
+conda install python-graphviz -y
+conda install graphviz -y
+conda install -c conda-forge pydotplus -y
+conda install -c conda-forge pytrends
+pip install jupyterlab_sublime
+pip install fastquant
+
+```

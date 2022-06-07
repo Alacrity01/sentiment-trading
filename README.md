@@ -20,6 +20,13 @@
 - [Jupyter](https://jupyter.org/) notebook, 
 - [Pandas](https://pandas.pydata.org/docs/) (historical data)
 
+***Machine Learning Models***
+
+Scikitlearn:
+	
+- [Support Vector Machine model (SVM)] (https://scikit-learn.org/stable/modules/svm.html)
+
+
 ***Confounding Factors:***
 
 - Time/window of available data
@@ -46,7 +53,6 @@
 
 ```
 conda update -n base -c defaults conda
-
 conda activate base
 conda create -n sentenv python=3.7 anaconda -y
 conda activate sentenv
@@ -57,5 +63,5 @@ conda install -c conda-forge pydotplus -y
 conda install -c conda-forge pytrends
 pip install jupyterlab_sublime
 pip install fastquant
-
+conda install scikit-learn
 ```
